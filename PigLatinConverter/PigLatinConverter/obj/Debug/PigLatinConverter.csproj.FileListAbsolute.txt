@@ -1,0 +1,7 @@
+C:\Users\Nathan\Documents\Visual Studio 2017\Projects\PigLatinConverter\PigLatinConverter\bin\Debug\PigLatinConverter.exe.config
+C:\Users\Nathan\Documents\Visual Studio 2017\Projects\PigLatinConverter\PigLatinConverter\bin\Debug\PigLatinConverter.exe
+C:\Users\Nathan\Documents\Visual Studio 2017\Projects\PigLatinConverter\PigLatinConverter\bin\Debug\PigLatinConverter.pdb
+C:\Users\Nathan\Documents\Visual Studio 2017\Projects\PigLatinConverter\PigLatinConverter\obj\Debug\PigLatinConverter.csprojAssemblyReference.cache
+C:\Users\Nathan\Documents\Visual Studio 2017\Projects\PigLatinConverter\PigLatinConverter\obj\Debug\PigLatinConverter.csproj.CoreCompileInputs.cache
+C:\Users\Nathan\Documents\Visual Studio 2017\Projects\PigLatinConverter\PigLatinConverter\obj\Debug\PigLatinConverter.exe
+C:\Users\Nathan\Documents\Visual Studio 2017\Projects\PigLatinConverter\PigLatinConverter\obj\Debug\PigLatinConverter.pdb
