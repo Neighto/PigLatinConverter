@@ -23,12 +23,18 @@ namespace PigLatinConverter
     {
         static void Main(string[] args)
         {
-            string sentence;
-
             //Display information to user
             Console.WriteLine("---------------------------\r");
             Console.WriteLine("Console Pig Latin Converter\r");
             Console.WriteLine("---------------------------\n");
+            SetupDisplay();
+        }
+
+        static void SetupDisplay()
+        {
+            string sentence;
+            ConsoleKey input;
+
             Console.WriteLine("Write a sentence in English and it will be converted to Pig Latin.");
             Console.WriteLine("Press ENTER when done.");
 
@@ -40,9 +46,25 @@ namespace PigLatinConverter
 
             //Display the converted sentence
             Console.WriteLine("\nTranslation to Pig Latin:\r");
-            Console.WriteLine(sentence);
-            Console.WriteLine("\nPress any key to EXIT.");
-            Console.ReadKey();
+            Console.WriteLine(sentence + "\n");
+
+            //Ask user if they want to write another sentence before ending program
+            do
+            {
+                Console.Write("Would you like to run the program again? [y/n] ");
+                input = Console.ReadKey(false).Key;
+                if (input != ConsoleKey.Enter)
+                {
+                    Console.WriteLine();
+                }
+            } while (input != ConsoleKey.Y && input != ConsoleKey.N);
+
+            //User wants to write another sentence
+            if (input == ConsoleKey.Y)
+            {
+                Console.WriteLine();
+                SetupDisplay();
+            }
         }
 
         //Translates sentence to Pig Latin
