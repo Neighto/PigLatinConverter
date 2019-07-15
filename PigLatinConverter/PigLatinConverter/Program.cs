@@ -55,7 +55,7 @@ namespace PigLatinConverter
             //Loop through the sentence
             foreach (char c in sentence)
             {
-                if (c == ' ')
+                if (!Char.IsLetter(c)) //If c is a space, comma, exclamation mark, number, etc
                 {
                     if (wordBuilding) //Then we are at the end of a word
                     {
@@ -152,5 +152,6 @@ namespace PigLatinConverter
             if (vowels.Contains(Char.ToLower(c))) return true;
             else return false;
         }
+
     }
 }
